@@ -1,0 +1,144 @@
+/* .little-profile {
+    margin-top: 3rem
+} */
+
+.little-profile h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #a4a3a3;
+    font-size: 25px;
+}
+
+.little-profile p{
+    color: #41bdeb;
+}
+
+
+.left-sidebar,
+.sidebar-footer {
+    background: #464646 !important;
+}
+
+#sidebarnav a:active, #sidebarnav span
+{
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+/* .search-box {
+    margin: 30px;
+    padding-right: 10px;
+} */
+
+.search-box .has-search { 
+    float: right;
+}
+
+.search-box .search {
+    border-radius: 35px;
+    border: solid 1px #41bdeb;
+    width: 300px;
+} 
+.search-box .ti-close{
+    float: left;
+    font-size: 35px;
+    margin-right: 10px;
+    color: #41bdeb;
+}
+
+.search-box .search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #41bdeb;
+    opacity: 1; /* Firefox */
+  }
+
+.filter-lists  {
+    border-bottom: solid 1px #d7dfe3;
+    margin-bottom: 2rem;
+}
+
+.contact-list .little-profile .pro-img img {
+    width: 100px;
+    height: 100px;
+}
+.contact-list:last-child .person{
+    border-bottom: none;
+}
+
+.contact-list .person{
+    border-bottom: 1px solid #d7dfe3;
+    border-right: 1px solid #d7dfe3;
+}
+.contact-list .person:last-child{
+    border-right: none;
+}
+
+.filter-lists h1{
+    color: #41bdeb;
+}
+
+.little-profile .btn-danger {
+    min-width: 165px;
+    color: red;
+    background-color: #fff;
+    border: 1px solid red;
+}
+.little-profile .btn-danger:hover {
+    background-color: red;
+    color:#fff;
+}
+
+.little-profile .btn-primary {
+    color: #41bdeb;
+    min-width: 165px;
+}
+
+.little-profile .btn-primary:hover {
+    color: #fff;
+    background-color: #41bdeb;
+}
+.social {
+    margin-bottom: 10px;
+}
+
+.social span{
+    font-size: 12px !important;
+    border: 1px solid #41bdeb;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.social span:before{
+    color: #41bdeb;
+}
+
+
+.little-profile h4 {
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #41bdeb;
+}
+
+.little-profile .position,
+.little-profile .country
+{
+    color: #a4a3a3;
+    font-size: 10px;
+    line-height: 5px;
+}
